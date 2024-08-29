@@ -1,17 +1,13 @@
 ## IDF Component Manager Manifest File
+
+description: SDL_ttf 3.0
+license: Zlib
+url: https://github.com/libsdl-org/SDL_ttf
+repository: https://github.com/georgik/esp-idf-component-SDL_ttf
+version: 3.0.0~1
+
 dependencies:
   espressif/freetype: "^2.13.0~3"
   ## Required IDF version
   idf:
-    version: ">=4.1.0"
-  # # Put list of dependencies here
-  # # For components maintained by Espressif:
-  # component: "~1.0.0"
-  # # For 3rd party components:
-  # username/component: ">=1.0.0,<2.0.0"
-  # username2/component2:
-  #   version: "~1.0.0"
-  #   # For transient dependencies `public` flag can be set.
-  #   # `public` flag doesn't have an effect dependencies of the `main` component.
-  #   # All dependencies of `main` are public by default.
-  #   public: true
+    version: ">=5.0.0"
