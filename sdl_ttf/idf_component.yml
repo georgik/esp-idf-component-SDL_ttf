@@ -1,10 +1,10 @@
 ## IDF Component Manager Manifest File
 
-description: SDL_ttf 3.0
+description: SDL_ttf 3.1
 license: Zlib
 url: https://github.com/libsdl-org/SDL_ttf
 repository: https://github.com/georgik/esp-idf-component-SDL_ttf
-version: 3.0.0~2
+version: 3.1.2~1
 
 files:
   exclude:
@@ -14,8 +14,8 @@ files:
     - "mingw"
 
 dependencies:
-  espressif/freetype: "^2.13.0~3"
-  georgik/sdl: ">=3.1.2~6"
+  espressif/freetype: "^2.13.3"
+  georgik/sdl: ">=3.2.5~1"
   #  git: https://github.com/georgik/esp-idf-component-SDL.git
   ## Required IDF version
   idf:
