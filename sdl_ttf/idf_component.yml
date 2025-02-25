@@ -4,14 +4,16 @@ description: SDL_ttf 3.1
 license: Zlib
 url: https://github.com/libsdl-org/SDL_ttf
 repository: https://github.com/georgik/esp-idf-component-SDL_ttf
-version: 3.1.2~1
+version: 3.1.2~2
 
 files:
   exclude:
-    - "Android.mk"
-    - "VisualC*"
-    - "XCode"
-    - "mingw"
+    - "SDL_ttf/Android.mk"
+    - "SDL_ttf/VisualC*"
+    - "SDL_ttf/Xcode"
+    - "SDL_ttf/mingw"
+    - "SDL_ttf/external"
+    - "SDL_ttf/build-scripts"
 
 dependencies:
   espressif/freetype: "^2.13.3"
